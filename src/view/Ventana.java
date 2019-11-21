@@ -41,7 +41,7 @@ public class Ventana extends JFrame {
 		accommodation.setBounds(50,150,89,48);
 		accommodation.setEnabled(true);//enceder el boton
 		panel.add(accommodation);
-
+		System.out.println("ey");
 		//panel.add(accommodation,BorderLayout.WEST);
 	}
 	private void colocarPaneles() {
